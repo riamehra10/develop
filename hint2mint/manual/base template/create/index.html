@@ -622,7 +622,7 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="button" value="Send Message" class="btn btn-primary btn-md text-white" onclick="sendEmail()">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
                 </div>
               </div>
 
@@ -740,29 +740,6 @@
             </script>
 
   <script src="js/main.js"></script>
-  <script src="js/smtp.js"></script>
-  <script type="text/javascript">
-    function sendEmail(){
-      let fname = document.getElementById('fname').value;
-      let lname = document.getElementById('lname').value;
-      let email = document.getElementById('email').value;
-      let subject = document.getElementById('subject').value;
-      let message = document.getElementById('message').value;
-
-      Email.send({
-      Host: "smtp.gmail.com",
-      Username : "<riamehra10@gmail.com>",
-      Password : "",
-      To : email,
-      From : "<riamehra10@gmail.com>",
-      Subject : subject,
-      Body : message,
-      }).then(
-          message => alert(message)
-        );
-
-    }
-  </script>
   
 
 
