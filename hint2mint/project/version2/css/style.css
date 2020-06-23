@@ -1874,7 +1874,6 @@ position: relative; }
 .blog2 {
   padding: 100px;
   font-size: 25px;
-  
 }
 @media (min-width: 768px) {
   .site-section {
@@ -1948,6 +1947,11 @@ position: relative; }
 @media (max-width: 991.98px) {
   .hover-bg-enlarge .bg-image-md-height {
     height: 300px !important; } }
+.site-navbar {
+  position: fixed;
+  -webkit-box-shadow: 20px 0 0 rgba(0, 0, 0, 0.041), -20px 0 0 rgba(0, 0, 0, 0.041);
+  box-shadow: 20px 0 0 rgba(0, 0, 0, 0.041), -20px 0 0 rgba(0, 0, 0, 0.041);
+}
 
 .blog3 {
   padding: 100px;
@@ -2086,6 +2090,3 @@ font-size: 2.5rem; }
         @media (min-width: 768px) {
           .site-section-heading {
             font-size: 3rem; } }
-.bg-white{
-  background: transparent !important;
-}
