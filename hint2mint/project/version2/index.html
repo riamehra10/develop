@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.comcss?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
@@ -202,7 +203,11 @@
   <script src="js/main.js"></script>
   <script src="js/smtp.js"></script>
   <script src="js/form.js"></script>
-
+<script>
+  $(window).scroll(function(){
+    $('header').toggleClass('scrolled',$(this).scrollTop>600);
+  });
+</script>
 
 
 
