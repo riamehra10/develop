@@ -1,3 +1,5 @@
+
+
 .bgimg{
     background-image: url('../images/coverimg/cover.jpg');
     background-size: 100% 100%;
@@ -150,4 +152,13 @@
     width: 600px;
     margin-left: -100px;
   }
+}
+body { 
+	background-color: rgb(30, 15, 33);
+	margin: 0;
+	padding: 0;
+}
+#client-testimonial-carousel {min-height: 300px;}
+.testimonials{
+  margin-top: 100px;
 }

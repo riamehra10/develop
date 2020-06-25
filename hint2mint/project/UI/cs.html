@@ -9,6 +9,8 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+
+        
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -98,47 +100,46 @@
     </div>
   </section>
 
-  <section class="site-section testimonial-wrap">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
-          <h1>Testimonials</h1>
-          <div class="bloghead"><a href="bloglanding.html">Testimonials</a></div>
+  <section class="testimonials">
+    <div class="container text-center">
+        <h1>Testimonials</h1>
+        <div class="bloghead"><a href="testlanding.html">Testimonials</a></div>
+        <div class="row teamsetting">
+     
+            <div class="col-lg-10 offset-lg-1 pt-5 pb-5 bg-dark text-light">
+              <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active text-center p-4">
+                    <blockquote class="blockquote text-center">
+                      <p class="mb-0"><i class="fa fa-quote-left"></i> Having no pre-knowledge about Trading and various Investments schemes, got a major boost into exploring the vast sea of Trading because of team at Chariot Finserve. Their work is commendable ,also well organised. Credits to the hastle free online webinars organised by them, was able to explore and understand better the concept of Trading by sitting at home itself. Amazing Consultation Sevices !!</p>
+                      
+                    <p class="client-review-stars">
+                       -Akshay Jain
+                      </p>
+                    </blockquote>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                    <blockquote class="blockquote text-center">
+                      <p class="mb-0"><i class="fa fa-quote-left"></i> I have attended almost every webinar of Hint2mint, it was an excellent experience to attend the sessions because  I have managed to cure the issue which I was facing earlier. The webinars had excellent and were easy to understand. I got my all basics concepts clarified.
+                        thanks for everything keep up the task.
+                          wishing you all the best for your future.</p>
+                      <p class="client-review-stars">
+                          -Shadab
+                      </p>
+                    </blockquote>
+                  </div>
+                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                  <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+                </ol>
+              </div>
+            </div>
+   
         </div>
-      </div>
     </div>
-    
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <p class="testPara text-center text-black justify-content-center">Having no pre-knowledge about Trading and various Investments schemes, got a major boost into exploring the vast sea of Trading because of team at Chariot Finserve. Their work is commendable ,also well organised. Credits to the hastle free online webinars organised by them, was able to explore and understand better the concept of Trading by sitting at home itself. Amazing Consultation Sevices !!
-             <p>- Akash Jain</p> 
-            </p>
-          </div>
-          <div class="carousel-item">
-            <p class="testPara">I have attended almost every webinar of Hint2mint, it was an excellent experience to attend the sessions because  I have managed to cure the issue which I was facing earlier. The webinars had excellent and were easy to understand. I got my all basics concepts clarified.
-              thanks for everything keep up the task.
-                 wishing you all the best for your future.</p>
-            <p>-Shadab</p>     
-          </div>
-          
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div>
-  </section>
-
+  </section>      
 
 
 <section class="ourteam">
@@ -294,6 +295,6 @@
       $('nav').toggleClass('scrolled',$(this).scrollTop() > 600);
     });
   </script>
-
+ 
 </body>
 </html>
