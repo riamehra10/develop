@@ -1,0 +1,153 @@
+.bgimg{
+    background-image: url('../images/coverimg/cover.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 660px;
+}
+.bg-dark{
+  background: transparent !important;
+}
+.bg-dark.scrolled{
+  background: #717171 !important;
+}
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.teamsetting{
+    margin-top: 80px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {
+    font-style: italic;
+    
+  }
+.textPara p{
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}  
+#footer {
+    background-color: rgba(0, 0, 0, 0.267);
+    position: relative;
+    height: 400px;
+    margin-top: -10px;
+    clear: both;
+    
+  }
+  .footer-content{
+    padding-top: 140px;
+    display: inline-flex;
+  }
+  .footer-content b{
+    margin-left: 200px;
+  }
+  .footer-letter{
+    margin-left: 50px;
+  }
+  
+  .newsletter{
+    
+    padding-left: 1000px;
+  }
+  .newsletter b
+  {
+    padding-left: 50px;
+  }
+  
+  .features
+  {
+    margin-left: 80px;
+  }
+  .features-sec{
+  
+    margin-left: 200px;
+    
+  }
+  
+  .footer-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  .footer-letter{
+    border-radius: 25px;
+    border: ridge;
+    padding: 10px;
+  }
+  form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+  }
+  .form-control{
+    text-align: center;
+
+    
+  }
+  #fnameInput{
+    border-radius: 25px;
+  }
+  #lnameInput{
+    border-radius: 25px;
+  }
+  #exampleInputEmail1{
+    border-radius: 25px;
+  }
+  #contactInput{
+    border-radius: 25px;
+  }
+  #messageTextt{
+    border-radius: 25px;
+  }
+  .form-group{
+    width: 500px;
+    margin-left: 500px;
+  }
+  .row{
+    margin-top: 50px;
+  }
+  .blog-content{
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+  }
+.btn{
+  margin-left: 700px;
+}
+.blog{
+  margin-top: 80px;
+}
+.bloghead{
+  margin-left: 700px;
+}
+
+.blog-content p h1{
+  width: 700px;
+  text-align: left;
+  margin-top: 30px;
+}
+.blog-content p h2{
+  text-align: left;
+  margin-top: 30px;
+}
+@media(min-width: 768px){
+  .about p{
+    width: 600px;
+    margin-left: -100px;
+  }
+  .about h1{
+    width: 600px;
+    margin-left: -100px;
+  }
+}
