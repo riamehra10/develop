@@ -1,0 +1,6 @@
+.bg-info{
+    background: rgb(239,220,190) !important;
+  }
+  .bg-info.scrolled{
+    background:  transparent !important;
+  }
