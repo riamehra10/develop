@@ -41,12 +41,13 @@
         </div>
         <div class="col-md-3">
             <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post">
+            <form action="newsletter.js" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control border-secondary text-white bg-transparent"
+                    <input type="email" class="form-control border-secondary text-white bg-transparent"
                         placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                        <input type="button" value="Send" class="btn btn-primary text-white" id="button-addon2" onclick="sendNewsletterMail()">
+                        <button name="subscribe" value="subscribe" onclick="sendNewsletterMail()">Subscribe</button>
                     </div>
                 </div>
             </form>
@@ -65,3 +66,7 @@
 
     </div>
 </div>
+
+<script src="../../js/main.js"></script>
+<script src="../../js/smtp.js"></script>
+<script src="../../js/newsletter.js"></script>

@@ -1,4 +1,3 @@
-
   function sendEmail(){
     let fname = document.getElementById('fname').value;
     let lname = document.getElementById('lname').value;
@@ -6,18 +5,20 @@
     let subject = document.getElementById('subject').value;
     let message = document.getElementById('message').value;
 
-    let body = '<html><body>';
-    body += '<p>First Name: '+fname+'</p>';
-    body += '<p>Last Name: '+lname+'</p>';
-    body += '<p>Email: '+email+'</p>';
-    body += '<p>Message: '+message+'</p>';
+    let body = '<!DOCTYPE html><html><head></head><body>';
+    body += '<p>Hello Dixita</p>';
+    body += '<p>'+fname+' has tried to contact you via form. Details of the concerned person are as follows:-</p>';
+    body += '<p>1.Full Name: '+lname+' '+lname+'</p>';
+    body += '<p>2.Email ID: '+email+'</p>';
+    body += '<p>3.Subject: '+subject+'</p>';
+    body += '<p>4.Message: '+message+'</p>';
+    body += '<p>kindly look into the same.</p>';
     body += '</body></html>';
 
+
     Email.send({
-    Host: "smtp.gmail.com",
-    Username : "preetimehra018@gmail.com",
-    Password : "",
-    To : email,
+    SecureToken : "76f8b1ca-bf64-4382-81e4-4b26b87f8f92",
+    To : 'preetimehra018@gmail.com',
     From : "preetimehra018@gmail.com",
     Subject : subject,
     Body : body,
