@@ -1,12 +1,17 @@
 function sendNewsletterMail(){
-    let email = document.getElementById('newsLetterEmail').value;
+    let newsLetterEmail = document.getElementById('newsLetterEmail').value;
     let Subject  = 'Newsletter';
-    let body =  email;
-    alert(email);
+
+    let body = '<!DOCTYPE html><html><head></head><body>';
+    body += '<p><b>Subject: New addition to the Newsletter</b></p>';
+    body +='<p>Congratulations !!</p>';
+    body +='<p>You have received a new subscription to the Newsletter. The E-mail ID for the same is </p>';
+    body +='<p>'+newsLetterEmail+'</p>';
+    body += '</body></html>';
+    
+    alert(newsLetterEmail);
     Email.send({
-    Host: "smtp.gmail.com",
-    Username : "preetimehra018@gmail.com",
-    Password : "rajupreeti@1969",
+    SecureToken : "76f8b1ca-bf64-4382-81e4-4b26b87f8f92",
     To : "preetimehra018@gmail.com",
     From : "preetimehra018@gmail.com",
     Subject : subject,

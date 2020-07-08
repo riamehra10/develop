@@ -43,11 +43,10 @@
             <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
             <form action="newsletter.js" method="post">
                 <div class="input-group mb-3">
-                    <input type="email" class="form-control border-secondary text-white bg-transparent"
+                    <input type="email" name="newsLetterEmail" id="newsLetterEmail" class="form-control border-secondary text-white bg-transparent"
                         placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <input type="button" value="Send" class="btn btn-primary text-white" id="button-addon2" onclick="sendNewsletterMail()">
-                        <button name="subscribe" value="subscribe" onclick="sendNewsletterMail()">Subscribe</button>
+                        <button class="btn btn-primary text-white" type="button" id="button-addon2" name="subscribe" value="subscribe" onclick="sendNewsletterMail()">Send</button>
                     </div>
                 </div>
             </form>

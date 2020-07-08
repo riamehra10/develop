@@ -6,9 +6,10 @@
     let message = document.getElementById('message').value;
 
     let body = '<!DOCTYPE html><html><head></head><body>';
+    body += '<p>Subject: Query from Contact us form</p>';
     body += '<p>Hello Dixita</p>';
     body += '<p>'+fname+' has tried to contact you via form. Details of the concerned person are as follows:-</p>';
-    body += '<p>1.Full Name: '+lname+' '+lname+'</p>';
+    body += '<p>1.Full Name: '+fname+' '+lname+'</p>';
     body += '<p>2.Email ID: '+email+'</p>';
     body += '<p>3.Subject: '+subject+'</p>';
     body += '<p>4.Message: '+message+'</p>';
