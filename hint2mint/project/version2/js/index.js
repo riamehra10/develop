@@ -6,14 +6,17 @@
     let message = document.getElementById('message').value;
 
     let body = '<!DOCTYPE html><html><head></head><body>';
-    body += '<p>Subject: Query from Contact us form</p>';
+    body += '<p><b>Subject: Query from Contact us form</b></p>';
     body += '<p>Hello Dixita</p>';
     body += '<p>'+fname+' has tried to contact you via form. Details of the concerned person are as follows:-</p>';
     body += '<p>1.Full Name: '+fname+' '+lname+'</p>';
     body += '<p>2.Email ID: '+email+'</p>';
     body += '<p>3.Subject: '+subject+'</p>';
     body += '<p>4.Message: '+message+'</p>';
-    body += '<p>kindly look into the same.</p>';
+    body += 'kindly look into the same.'+'<br>'+'Regards'+'<br>';
+    body += '<p>'+'<img src = "../images/logo/logo.jpg">'+'</p>';
+    body += 'Warm Regards,'+'<br>'+'Dixita Jain'+'<br>'+'Director,'+'<br>'+'Contact No: +9971915524';
+    body +=  '<a href="https://www.facebook.com/dixita.jain.10"><span class="icon-facebook">';
     body += '</body></html>';
 
 
@@ -31,4 +34,3 @@
 
     /* SmtpJS.com - v3.0.0 */
 var Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };
-
