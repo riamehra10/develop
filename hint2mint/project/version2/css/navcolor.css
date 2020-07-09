@@ -1,9 +1,0 @@
-.bg-info{
-  background: rgb(240,240,240) !important;
-}
-  .bg-info.scrolled{
-    background:  #343a40 !important;
-  }
-  .bg-info.scrolled .site-navigation .site-menu > li > a {
-    color: #32dbc6; 
-  }

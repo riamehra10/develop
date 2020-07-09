@@ -1,0 +1,23 @@
+.bg-info{
+  background: rgb(240,240,240) !important;
+}
+  .bg-info.scrolled{
+    background:  #343a40 !important;
+  }
+  .bg-info.scrolled .site-navigation .site-menu > li > a {
+    color: #32dbc6; 
+  }
+  .hint {
+    color: #212529;
+    font-size: medium;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-weight: bolder;
+  }
+  body {
+    background-image: url("../asset/images/background/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bolder;
+
+}
