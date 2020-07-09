@@ -2093,7 +2093,6 @@ font-size: 2.5rem; }
 .hint {
   color: #212529;
   font-size: medium;
-  background-image: url("asset/images/1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-weight: bolder;
