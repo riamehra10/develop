@@ -2090,7 +2090,11 @@ font-size: 2.5rem; }
         @media (min-width: 768px) {
           .site-section-heading {
             font-size: 3rem; } }
-.team-color{
+.hint {
   color: #212529;
   font-size: small;
+  background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bolder;
 }
