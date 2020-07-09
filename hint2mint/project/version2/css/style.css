@@ -1693,7 +1693,7 @@ h1, h2, h3, h4, h5,
   font-size: 15px;
   width: 100%;
   float: left;
-  background: #fff; }
+   }
   .sidebar-box *:last-child {
     margin-bottom: 0; }
   .sidebar-box h3 {
@@ -2092,8 +2092,8 @@ font-size: 2.5rem; }
             font-size: 3rem; } }
 .hint {
   color: #212529;
-  font-size: small;
-  background-image: url("images/1.png");
+  font-size: medium;
+  background-image: url("asset/images/1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-weight: bolder;
