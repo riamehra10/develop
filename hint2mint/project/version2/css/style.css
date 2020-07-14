@@ -1693,6 +1693,8 @@ h1, h2, h3, h4, h5,
   font-size: 15px;
   width: 100%;
   float: left;
+  background-color: rgba(255, 255, 255, 0.658);
+  
    }
   .sidebar-box *:last-child {
     margin-bottom: 0; }
@@ -1720,7 +1722,7 @@ h1, h2, h3, h4, h5,
       position: absolute;
       right: 0;
       top: 0;
-      color: #ccc; }
+      color: rgba(255, 255, 255, 0.199); }
   .categories li.active a,
   .sidelink li.active a {
     color: #000;
